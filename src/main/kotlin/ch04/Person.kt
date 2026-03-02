@@ -68,9 +68,9 @@ class Person(
     }
 
     //함수 방식
-    fun isAdult(): Boolean {
-        return this.age >= 20
-    }
+//    fun isAdult(): Boolean {
+//        return this.age >= 20
+//    }
 
     //함수 대신 프로퍼티처럼 만들 수 있음
     val isAdult: Boolean
